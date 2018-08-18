@@ -1,0 +1,72 @@
+.contentMain {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: .2rem 0;
+}
+.txtSlogan>h2{
+  font-size: 40px;
+  line-height: 1.1;
+  color: #666;
+}
+
+.txtIntro {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: .15rem auto .2rem;
+  word-spacing: 2px;
+}
+
+.btnShowModal {
+  border: 1px solid #999;
+  background-color: transparent;
+  display: block;
+  width: 1.5rem;
+  height: .4rem;
+  margin: 0 auto;
+  font-size: .12rem;
+  color: #999;
+  cursor: pointer;
+}
+.modalBody {
+  padding: .4rem .24rem;
+  width: 100%;
+  Hr {
+    width: .4rem;
+    margin: .1rem auto .25rem;
+  }
+}
+.formTitle {
+  font-size: .14rem;
+  line-height:  1.5;
+  font-style: italic;
+}
+.formField, .formBtnSubmit {
+  display: block;
+  padding: .08rem;
+  font-size: .12rem;
+  border: 1px solid #666;
+  margin: .1rem auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.formBtnSubmit {
+  cursor: pointer;
+  margin-top: .2rem;
+}
+.formBtnSubmit[disabled] {
+  opacity: .6;
+  cursor: not-allowed;
+}
+.formWarn, .txtError {
+  text-align: left;
+  color: #ea9696;
+}
+.txtSuccess {
+  font-size: .12rem;
+  line-height: 1.5;
+  margin: .5rem auto;
+}

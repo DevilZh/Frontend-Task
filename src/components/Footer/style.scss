@@ -1,0 +1,15 @@
+.footer{
+  flex-shrink: 0;  
+  height: .6rem;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  >p {
+    line-height: 1.6;
+    font-size: 14px;
+    font-style: italic;
+  }
+}

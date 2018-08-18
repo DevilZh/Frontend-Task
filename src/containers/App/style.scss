@@ -1,0 +1,44 @@
+// reset style
+html, body {
+  height: 100%;
+}
+html, body, p, div, h1, h2, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+  color: #888;
+}
+
+div, p, span{
+  font-size: 12px;
+  font-family: Verdana, Tahoma, Arial, monospace;
+}
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+button {
+  border: none;
+  &:focus{
+    outline: none;
+  }
+  &:active,
+  &:focus {
+    transition: all .2s;
+    box-shadow: -3px -3px 4px 0px #b4b4b4;
+    transform: translate(2px, 2px);
+    background-color: #f9f9f9;
+  }
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 150px !important;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
